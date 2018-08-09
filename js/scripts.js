@@ -101,6 +101,10 @@ $(function () {
       $(".josie").hide();
       $(".briggs").hide();
     }
-window.scrollTo(0,document.body.scrollHeight);
+// window.scrollTo(0,document.body.scrollHeight)
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: "smooth"
+  });
   });
 });

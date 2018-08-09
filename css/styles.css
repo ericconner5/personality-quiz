@@ -3,8 +3,10 @@ h1 {
 }
 
 body {
+  background: linear-gradient(to left top, rgba(242, 240, 213, 0.6), rgba(140, 3, 0, 0.6)), url("../img/bg.png") no-repeat;
   margin-top: 3%;
   margin-bottom: 3%;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 .briggs, .shelly, .dale, .josie, .log {
@@ -17,8 +19,13 @@ body {
 }
 
 img {
-  width: 80%;
-  max-width: 80%;
+  width: 83%;
+  max-width: 83%;
   border: solid 2px #53FFFF;
   outline: dashed 1px #4254E8;
+}
+
+.class {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('http://www.skrenta.com/images/stackoverflow.jpg') no-repeat;
+  height: 200px;
 }
