@@ -101,6 +101,6 @@ $(function () {
       $(".josie").hide();
       $(".briggs").hide();
     }
-
+window.scrollTo(0,document.body.scrollHeight);
   });
 });
