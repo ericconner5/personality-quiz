@@ -106,5 +106,6 @@ $(function () {
     top: document.body.scrollHeight,
     behavior: "smooth"
   });
+  $('input[type="radio"]').prop('checked', false);
   });
 });
